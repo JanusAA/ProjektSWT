@@ -238,11 +238,11 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String ChanceCard18() {
-		return "I anledning af kongens fødselsdag benødes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
+		return "I anledning af kongens fødselsdag benådes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
 	}
 	@Override
 	public String ChanceCard19() {
-		return "I anledning af kongens fødselsdag benødes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
+		return "I anledning af kongens fødselsdag benådes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
 	}
 	@Override
 	public String ChanceCard20() {
