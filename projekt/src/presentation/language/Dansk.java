@@ -4,55 +4,57 @@ public class Dansk implements LanguageDefinitions {
 
 	@Override
 	public String gameRules() {
-		return "\t Dette spil kan spilles af 2-6 spillere. \n"
-				+ "\t Spillet tabes ved at gÃ¥ bankerot, den sidste spiller med likvide midler vinder spillet. \n"
-				+ "\t Alle spillere starter med en balance pÃ¥ 30.000. \n"
-				+ "\t Visse felter kan kÃ¸bes, andre kan medfÃ¸re en betaling. \n"
-				+ "\t Hvis en spiller lander pÃ¥ et ejet felt, betales en sum til ejeren. \n " ;
+		return "\t Velkommen til Matador. Herunder ses en kort introduktion til reglerne: \n"
+				+ "\t Ved spilstart tildeles hver spiller 30.000 kr, disse penge bruges til at opkÃ¸be grunde, \n"
+				+ "\t samt til at betale skat, leje og regninger. PÃ¥ spillebrÃ¦ttet findes 40 felter, som alle har \n"
+				+ "\t nogle funktioner. Grunde, rederier og bryggerier kan alle kÃ¸bes. Skat medfÃ¸rer en betaling. \n"
+				+ "\t Hvis du lander pÃ¥ et felt, som en anden spiller har kÃ¸bt, betales der en leje. \n "
+				+ "\t Spillet vindes ved at vÃ¦re den sidste spiller med penge pÃ¥ kontoen. \n ";
+		
 	}
 	@Override
 	public String getFieldName(int index) {
 		String names[] = {
 				"Start",
-				"Rødorvevej",
-				"Prøv Lykken",
+				"RÃ¸dorvevej",
+				"PrÃ¸v Lykken",
 				"Hvidorvevej",
 				"Indkomstskat",
-				"LB - færge",
+				"LB - fÃ¦rge",
 				"Roskildevej",
-				"Prøv lykken",
+				"PrÃ¸v lykken",
 				"Valby Langgade",
-				"Allégade",
-				"Fængsel",
+				"AllÃ©gade",
+				"FÃ¦ngsel",
 				"Frederiksberg Alle",
 				"Carlsberg",
-				"Bülowsvej",
+				"BÃ¼lowsvej",
 				"Gl. Kongevej",
-				"Danmark færge",
+				"Danmark fÃ¦rge",
 				"Bernstorffsvej",
-				"Prøv lykken",
+				"PrÃ¸v lykken",
 				"Hellerupvej",
 				"Strandvej",
 				"Parkering",
 				"Trianglen",
-				"Prøv lykken",
-				"Østerbrogade",
-				"Grønningen",
-				"Mols-linjen - færge",
+				"PrÃ¸v lykken",
+				"Ã˜sterbrogade",
+				"GrÃ¸nningen",
+				"Mols-linjen - fÃ¦rge",
 				"Bredgade",
 				"Kgs. Nytorv",
 				"Coca-Cola",
-				"Østergade", // Er det korrekt??? 
-				"De fængsles",
+				"Ã˜stergade", 
+				"De fÃ¦ngsles",
 				"Amagertorv",
 				"Vimmelskaftet",
-				"Prøv lykken",
+				"PrÃ¸v lykken",
 				"Nygade",
-				"Skandinavisk Linietrafik - færge",
-				"Prøv lykken",
+				"Skandinavisk Linietrafik - fÃ¦rge",
+				"PrÃ¸v lykken",
 				"Frederiksberggade",
-				"Ekstraordinær statsskat",
-				"Rådhuspladsen"};
+				"EkstraordinÃ¦r statsskat",
+				"RÃ¥dhuspladsen"};
 		return names[index];
 	}
 	@Override
@@ -81,7 +83,7 @@ public class Dansk implements LanguageDefinitions {
 
 	@Override
 	public String AskHowManyPlayer() {
-		return "Hvor mange spillere? (mellem 2 og 6) ";
+		return "Indtast antal Ã¸nskede spillere. (mellem 2 og 6) ";
 	}
 	@Override
 	public String AskForPlayerName() {
@@ -95,11 +97,11 @@ public class Dansk implements LanguageDefinitions {
 	public String getFieldDescription(int type) {
 		String s;
 		switch (type) {
-		case 1: 	s = "FlÃ¥de";		break;
-		case 2: 	s = "Arbejdslejr";	break;
+		case 1: 	s = "Rederi";		break;
+		case 2: 	s = "Bryggeri";		break;
 		case 3: 	s = "Helle";		break;
 		case 4: 	s = "Skat";			break;
-		case 5: 	s = "Territorie";	break;
+		case 5: 	s = "Grund";		break;
 		default:	s = "";				break;
 		}
 		return s;
@@ -114,7 +116,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String getOkMove(String playerName) {
-		return "Det er " + playerName+ "'s tur, Tryk OK for at kaste terningerne og rykke";
+		return "Det er " + playerName+ "'s tur, Tryk OK for at kaste terningerne";
 				
 	}
 	@Override
@@ -140,7 +142,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String askPayTax() {
-		return "Hvilket belÃ¸b skal der betales i skat?";
+		return "Hvilket belÃ¸b Ã¸nsker du at betale til skat?";
 	}
 	@Override
 	public String askThrowDice(){
@@ -152,18 +154,18 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String getOutJail(String name){
-		return name + "Vil du slå med terningerne, eller betale 1000 for at komme uf af fængslet?";
+		return name + "Vil du slÃ¥ med terningerne, eller betale 1000 for at komme uf af fÃ¦ngslet?";
 	}
 	@Override
 	public String throwDice(){
-		return "Kast terningerne, og håb på to ens";
+		return "Kast terningerne, og hÃ¥b pÃ¥ to ens";
 	}
 	@Override
 	public String bribeJail(String name){
-		return name + "betaler 1000kr til fængselsvagten, og blev løsladt.";
+		return name + "betaler 1000kr til fÃ¦ngselsvagten og bliver lÃ¸sladt.";
 	}
 	@Override
 	public String threeThrowsJail(String name){
-		return name + "har ikke kunne slå 2 ens på tre runder, derfor betales, og derefter slås med terningerne.";
+		return name + "har ikke lykkedes at slÃ¥ 2 ens pÃ¥ tre runder, derfor betales 1000 kr. og spiller kan nu rykke igen.";
 	}
 }
