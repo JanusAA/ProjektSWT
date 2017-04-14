@@ -5,56 +5,56 @@ public class Dansk implements LanguageDefinitions {
 	@Override
 	public String gameRules() {
 		return "\t Velkommen til Matador. Herunder ses en kort introduktion til reglerne: \n"
-				+ "\t Ved spilstart tildeles hver spiller 30.000 kr, disse penge bruges til at opkøbe grunde, \n"
-				+ "\t samt til at betale skat, leje og regninger. På spillebrættet findes 40 felter, som alle har \n"
-				+ "\t nogle funktioner. Grunde, rederier og bryggerier kan alle købes. Skat medfører en betaling. \n"
-				+ "\t Hvis du lander på et felt, som en anden spiller har købt, betales der en leje. \n "
-				+ "\t Spillet vindes ved at være den sidste spiller med penge på kontoen. \n ";
+				+ "\t Ved spilstart tildeles hver spiller 30.000 kr, disse penge bruges til at opkoebe grunde, \n"
+				+ "\t samt til at betale skat, leje og regninger. På spillebraettet findes 40 felter, som alle har \n"
+				+ "\t nogle funktioner. Grunde, rederier og bryggerier kan alle koebes. Skat medfoerer en betaling. \n"
+				+ "\t Hvis du lander på et felt, som en anden spiller har koebt, betales der en leje. \n "
+				+ "\t Spillet vindes ved at vaere den sidste spiller med penge på kontoen. \n ";
 		
 	}
 	@Override
 	public String getFieldName(int index) {
 		String names[] = {
 				"Start",
-				"Rødorvevej",
-				"Prøv Lykken",
+				"Roedorvevej",
+				"Proev Lykken",
 				"Hvidorvevej",
 				"Indkomstskat",
-				"LB - færge",
+				"LB - faerge",
 				"Roskildevej",
-				"Prøv lykken",
+				"Proev lykken",
 				"Valby Langgade",
 				"Allégade",
-				"Fængsel",
+				"Faengsel",
 				"Frederiksberg Alle",
 				"Carlsberg",
-				"Bülowsvej",
+				"Bylowsvej",
 				"Gl. Kongevej",
-				"Danmark færge",
+				"Danmark faerge",
 				"Bernstorffsvej",
-				"Prøv lykken",
+				"Proev lykken",
 				"Hellerupvej",
 				"Strandvej",
 				"Parkering",
 				"Trianglen",
-				"Prøv lykken",
-				"Østerbrogade",
-				"Grønningen",
-				"Mols-linjen - færge",
+				"Proev lykken",
+				"Oesterbrogade",
+				"Groenningen",
+				"Mols-linjen - faerge",
 				"Bredgade",
 				"Kgs. Nytorv",
 				"Coca-Cola",
-				"Østergade", 
-				"De fængsles",
+				"Oestergade", 
+				"De faengsles",
 				"Amagertorv",
 				"Vimmelskaftet",
-				"Prøv lykken",
+				"Proev lykken",
 				"Nygade",
-				"Skandinavisk Linietrafik - færge",
-				"Prøv lykken",
+				"Skandinavisk Linietrafik - faerge",
+				"Proev lykken",
 				"Frederiksberggade",
-				"Ekstraordinær statsskat",
-				"Rådhuspladsen"};
+				"Ekstraordinaer statsskat",
+				"Raadhuspladsen"};
 		return names[index];
 	}
 	@Override
@@ -83,7 +83,7 @@ public class Dansk implements LanguageDefinitions {
 
 	@Override
 	public String AskHowManyPlayer() {
-		return "Indtast antal ønskede spillere. (mellem 2 og 6) ";
+		return "Indtast antal oenskede spillere. (mellem 2 og 6) ";
 	}
 	@Override
 	public String AskForPlayerName() {
@@ -91,7 +91,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String askBuyField() {
-		return "Vil du købe dette felt?";
+		return "Vil du koebe dette felt?";
 	}
 	@Override
 	public String getFieldDescription(int type) {
@@ -142,7 +142,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String askPayTax() {
-		return "Hvilket beløb ønsker du at betale til skat?";
+		return "Hvilket beloeb oensker du at betale til skat?";
 	}
 	@Override
 	public String askThrowDice(){
@@ -154,15 +154,15 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String getOutJail(String name){
-		return name + "Vil du slå med terningerne, eller betale 1000 for at komme uf af fængslet?";
+		return name + "Vil du slaa med terningerne, eller betale 1000 for at komme uf af faengslet?";
 	}
 	@Override
 	public String throwDice(){
-		return "Kast terningerne, og håb på to ens";
+		return "Kast terningerne, og haab på to ens";
 	}
 	@Override
 	public String bribeJail(String name){
-		return name + "betaler 1000kr til fængselsvagten og bliver løsladt.";
+		return name + "betaler 1000kr til faengselsvagten og bliver loesladt.";
 	}
 	@Override
 	public String threeThrowsJail(String name){
