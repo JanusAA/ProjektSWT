@@ -119,7 +119,8 @@ public class LanguageHandler {
 	
 	public String threeThrowsJail(String name){
 		return selectedLanguage.threeThrowsJail(name);
-		
+	}
+	
 	public String ChanceCard1 (){
 		return selectedLanguage.ChanceCard1();
 	}

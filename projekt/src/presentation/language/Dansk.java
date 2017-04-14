@@ -168,4 +168,174 @@ public class Dansk implements LanguageDefinitions {
 	public String threeThrowsJail(String name){
 		return name + "har ikke lykkedes at slå 2 ens på tre runder, derfor betales 1000 kr. og spiller kan nu rykke igen.";
 	}
+	@Override
+	public String ChanceCard1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard2() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard3() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard4() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard5() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard6() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard7() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard8() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard9() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard10() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard11() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard12() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard13() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard14() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard15() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard16() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard17() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard18() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard19() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard20() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard21() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard22() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard23() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard24() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard25() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard26() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard27() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard28() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard29() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard30() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard31() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard32() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard33() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String ChanceCard34() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
