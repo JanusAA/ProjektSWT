@@ -174,167 +174,131 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String ChanceCard2() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ryk frem til start";
 	}
 	@Override
 	public String ChanceCard3() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De ryger i fængsel. Selvom at De passerer start, modtages ikke 4000 kr.";
 	}
 	@Override
 	public String ChanceCard4() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De ryger i fængsel. Selvom at De passerer start, modtages ikke 4000 kr.";
 	}
 	@Override
 	public String ChanceCard5() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De har været i udlandet og har taget for mange cigaretter med hjem. Betal 200 kr i tolden.";
 	}
 	@Override
 	public String ChanceCard6() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De har modtaget Deres tandlægeregning. Betal 2000 kr.";
 	}
 	@Override
 	public String ChanceCard7() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De havde en række med 11 rigtige i tipning. Modtag 1000 kr.";
 	}
 	@Override
 	public String ChanceCard8() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Deres præmieobligation er kommet ud. Modtag 1000 kr. af banken.";
 	}
 	@Override
 	public String ChanceCard9() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Deres præmieobligation er kommet ud. Modtag 1000 kr. af banken.";
 	}
 	@Override
 	public String ChanceCard10() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Det er Deres fødselsdag. Modtag 200 kr. af hver medspiller.";
 	}
 	@Override
 	public String ChanceCard11() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Værdien af egen avl fra nyttehaven udgør 200 kr., som De modtager af banken.";
 	}
 	@Override
 	public String ChanceCard12() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Betal Deres bilforsikring på 1000 kr.";
 	}
 	@Override
 	public String ChanceCard13() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ejendomsskatterne er steget, ekstraudgifterne er: 800 kr. pr. hus og 2300 kr. pr. hotel.";
 	}
 	@Override
 	public String ChanceCard14() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ryk frem til Grønningen. Hvis De passerer start indkasseres 4000 kr.";
 	}
 	@Override
 	public String ChanceCard15() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ryk brikken frem til det nærmeste rederi og betal ejeren to gange den leje, han ellers er berettiget til. Hvis selskabet ikke ejes af nogen kan De købe det af banken.";
 	}
 	@Override
 	public String ChanceCard16() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ryk brikken frem til det nærmeste rederi og betal ejeren to gange den leje, han ellers er berettiget til. Hvis selskabet ikke ejes af nogen kan De købe det af banken.";
 	}
 	@Override
 	public String ChanceCard17() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Tag med LB-færgerne --- flyt brikken frem, og hvis De passerer Start. Indkassér da kr. 4000.";
 	}
 	@Override
 	public String ChanceCard18() {
-		// TODO Auto-generated method stub
-		return null;
+		return "I anledning af kongens fødselsdag benødes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
 	}
 	@Override
 	public String ChanceCard19() {
-		// TODO Auto-generated method stub
-		return null;
+		return "I anledning af kongens fødselsdag benødes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
 	}
 	@Override
 	public String ChanceCard20() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Grundet dyrtiden har De fået gageforhøjelse. Modtag kr. 1000";
 	}
 	@Override
 	public String ChanceCard21() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ryk frem til Frederiksberg All‚. Hvis De passerer Start inkasser kr. 4000.";
 	}
 	@Override
 	public String ChanceCard22() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De har vundet i Klasselotteriet. Modtag kr. 500";
 	}
 	@Override
 	public String ChanceCard23() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Tag ind på Rådhuspladsen.";
 	}
 	@Override
 	public String ChanceCard24() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ryk tre felter tilbage.";
 	}
 	@Override
 	public String ChanceCard25() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Oliepriserne er steget, og De skal betale: 500 kr pr. hus og 2000 kr. pr. hotel.";
 	}
 	@Override
 	public String ChanceCard26() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Betal kr. 3000 for reparation af Deres vogn.";
 	}
 	@Override
 	public String ChanceCard27() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Betal kr. 3000 for reparation af Deres vogn.";
 	}
 	@Override
 	public String ChanceCard28() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De modtager Matador-legatet for værdigt trængende, stort kr. 40.000 Ved værdigt trængende forstås, at Deres formue, d.v.s. Deres kontante penge + skøder + bygninger ikke overstiger kr. 15.000.";
 	}
 	@Override
 	public String ChanceCard29() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Kommunen har eftergivet et kvartals skat. Hæv i banken kr. 3000.";
 	}
 	@Override
 	public String ChanceCard30() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Modtag udbytte af Deres aktier kr. 1000";
 	}
 	@Override
 	public String ChanceCard31() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Modtag udbytte af Deres aktier kr. 1000";
 	}
 	@Override
 	public String ChanceCard32() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De har kørt frem for Fuld Stop. Betal kr. 1000 i bøde.";
 	}
 	@Override
 	public String ChanceCard33() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De har måttet vedtage en parkeringsbøde. Betal kr. 200 i bøde.";
 	}
-	@Override
-	public String ChanceCard34() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 }

@@ -113,6 +113,5 @@ interface LanguageDefinitions {
 	 String ChanceCard32 ();
 	 
 	 String ChanceCard33 ();
-	 
-	 String ChanceCard34 ();
+
 }

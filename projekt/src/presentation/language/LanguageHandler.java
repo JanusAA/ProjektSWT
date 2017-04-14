@@ -222,7 +222,5 @@ public class LanguageHandler {
 	public String ChanceCard33 (){
 		return selectedLanguage.ChanceCard33();
 	}
-	public String ChanceCard34 (){
-		return selectedLanguage.ChanceCard34();
-	}
+
 }
