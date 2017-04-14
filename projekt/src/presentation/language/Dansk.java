@@ -30,6 +30,7 @@ public class Dansk implements LanguageDefinitions {
 				"Gl. Kongevej",
 				"Danmark færge",
 				"Bernstorffsvej",
+				"Prøv lykken",
 				"Hellerupvej",
 				"Strandvej",
 				"Parkering",

@@ -3,7 +3,10 @@ import java.awt.Color;
 import java.lang.reflect.Array;
 
 import data.fieldclasses.BreweryDTO;
+import data.fieldclasses.ChanceDTO;
 import data.fieldclasses.FieldDTO;
+import data.fieldclasses.GoToJail;
+import data.fieldclasses.JailDTO;
 import data.fieldclasses.Ownable;
 import data.fieldclasses.RefugeDTO;
 import data.fieldclasses.ShippingCompanyDTO;
@@ -17,50 +20,56 @@ public class GameBoardDTO {
 	public GameBoardDTO() {
 		GameBoardDTO.field = new FieldDTO[40];
 
-//		Territory parametre: id, feltfarve, feltpris, leje
-		field[0] = new StreetDTO(0, Color.RED, 1000, 100);
-		field[1] = new StreetDTO(1, Color.RED, 1500, 300);
+
+//		Refuge parametre: id, feltfarve, bonus (Startfelt)
+		field[0] = new RefugeDTO(0, Color.RED, 4000);
+//		Street parametre: id, feltfarve, feltpris, leje
+		field[1] = new StreetDTO(1, Color.BLUE, 1200, 50);
 //		Refuge parametre: id, feltfarve, bonus 
-		field[2] = new RefugeDTO(2, Color.CYAN, 5000);
+		field[2] = new ChanceDTO(2, Color.BLACK);
+		field[3] = new StreetDTO(3, Color.BLUE, 1200, 50);
+//		Tax parametre: id, feltfarve, fast skattebeløb, skatte pct.
+		field[4] = new Tax(4, Color.WHITE, 4000, 10);
 //		ShippingCompany parametre: id, pris
-		field[3] = new ShippingCompanyDTO(3, Color.BLUE, 4000);
-		field[4] = new StreetDTO(4, Color.RED, 2000, 500);
-		field[5] = new StreetDTO(5, Color.RED, 3000, 700);
-		field[6] = new BreweryDTO(6, Color.GREEN, 2500);
-//		Tax parametre: id, feltfarve, fast skattebelÃ¸b, skatte pct.
-		field[7] = new Tax(7, Color.YELLOW, 2000, 0);
-		field[8] = new StreetDTO(8, Color.RED, 4000, 1000);
-		field[9] = new StreetDTO(9, Color.RED, 4300, 1300);
-		field[10] = new ShippingCompanyDTO(10, Color.BLUE, 4000);
-		field[11] = new BreweryDTO(11, Color.GREEN, 2500);
-		field[12] = new StreetDTO(12, Color.RED, 4750, 1600);
-		field[13] = new StreetDTO(13, Color.RED, 5000, 2000);
-		field[14] = new RefugeDTO(14, Color.CYAN, 500);
-		field[15] = new ShippingCompanyDTO(15, Color.BLUE, 4000);
-		field[16] = new StreetDTO(16, Color.RED, 5500, 2600);
-		field[17] = new StreetDTO(17, Color.RED, 6000, 3200);
-		field[18] = new Tax(18, Color.YELLOW, 4000, 10);
-		field[19] = new StreetDTO(19, Color.RED, 8000, 4000);	
-		field[20] = new ShippingCompanyDTO(20, Color.BLUE, 4000);
-		field[21] = new StreetDTO(21, Color.RED, 100, 100);
-		field[22] = new StreetDTO(22, Color.RED, 100, 100);
-		field[23] = new StreetDTO(23, Color.RED, 100, 100);
-		field[24] = new StreetDTO(24, Color.RED, 100, 100);
-		field[25] = new StreetDTO(25, Color.RED, 100, 100);
-		field[26] = new StreetDTO(26, Color.RED, 100, 100);
-		field[27] = new StreetDTO(27, Color.RED, 100, 100);
-		field[28] = new StreetDTO(28, Color.RED, 100, 100);
-		field[29] = new StreetDTO(29, Color.RED, 100, 100);
-		field[30] = new StreetDTO(30, Color.RED, 100, 100);
-		field[31] = new StreetDTO(31, Color.RED, 100, 100);
-		field[32] = new StreetDTO(32, Color.RED, 100, 100);
-		field[33] = new StreetDTO(33, Color.RED, 100, 100);
-		field[34] = new StreetDTO(34, Color.RED, 100, 100);
-		field[35] = new StreetDTO(35, Color.RED, 100, 100);
-		field[36] = new StreetDTO(36, Color.RED, 100, 100);
-		field[37] = new StreetDTO(37, Color.RED, 100, 100);
-		field[38] = new StreetDTO(38, Color.RED, 100, 100);
-		field[39] = new StreetDTO(39, Color.RED, 100, 100);
+		field[5] = new ShippingCompanyDTO(5, Color.GREEN, 4000);
+		field[6] = new StreetDTO(6, Color.ORANGE, 2000, 100);
+		field[7] = new ChanceDTO(7, Color.BLACK);
+		field[8] = new StreetDTO(8, Color.ORANGE, 2000, 100);
+		field[9] = new StreetDTO(9, Color.ORANGE, 2400, 150);
+		field[10] = new JailDTO(10, Color.DARK_GRAY);
+		field[11] = new StreetDTO(11, Color.YELLOW, 2800, 200);
+		field[12] = new BreweryDTO(12, Color.PINK, 4000);
+		field[13] = new StreetDTO(13, Color.YELLOW, 2800, 200);
+		field[14] = new StreetDTO(14, Color.YELLOW, 3200, 250);
+		field[15] = new ShippingCompanyDTO(15, Color.GREEN, 4000);
+		field[16] = new StreetDTO(16, Color.CYAN, 3600, 300);
+		field[17] = new ChanceDTO(17, Color.BLACK);
+		field[18] = new StreetDTO(18, Color.CYAN, 3600, 300);
+		field[19] = new StreetDTO(19, Color.CYAN, 4000, 350);	
+		/* Refuge bruges da der ikke er en klasse for Parkering.
+		 Da feltet ikke kan ejes og der ikke sker en handling
+		 kan det betragtes som et startfelt uden indkomst. */
+		field[20] = new RefugeDTO(20, Color.WHITE, 0);
+		field[21] = new StreetDTO(21, Color.RED, 4400, 350);
+		field[22] = new ChanceDTO(22, Color.BLACK);
+		field[23] = new StreetDTO(23, Color.RED, 4400, 350);
+		field[24] = new StreetDTO(24, Color.RED, 4800, 400);
+		field[25] = new ShippingCompanyDTO(25, Color.GREEN, 4800);
+		field[26] = new StreetDTO(26, Color.LIGHT_GRAY, 5200, 450);
+		field[27] = new StreetDTO(27, Color.LIGHT_GRAY, 5200, 450);
+		field[28] = new BreweryDTO(28, Color.PINK, 3000);
+		field[29] = new StreetDTO(29, Color.LIGHT_GRAY, 5600, 500);
+		field[30] = new GoToJail(30, Color.DARK_GRAY);
+		field[31] = new StreetDTO(31, Color.getHSBColor(173, 255, 47), 6000, 550);
+		field[32] = new StreetDTO(32, Color.getHSBColor(173, 255, 47), 6000, 550);
+		field[33] = new ChanceDTO(33, Color.BLACK);
+		field[34] = new StreetDTO(34, Color.getHSBColor(173, 255, 47), 6400, 600);
+		field[35] = new ShippingCompanyDTO(35, Color.GREEN, 4000);
+		field[36] = new ChanceDTO(36, Color.BLACK);
+		field[37] = new StreetDTO(37, Color.magenta, 7000, 700);
+		// Der skal laves en ny TaxField klasse som trækker 2000 fra spilleren, Den er endu ikke lavet.
+		field[38] = new Tax(38, Color.WHITE, 2000, 0);
+		field[39] = new StreetDTO(39, Color.magenta, 8000, 1000);
 	}	
 	public int getNumberOfFields () {
 		return Array.getLength(field);
