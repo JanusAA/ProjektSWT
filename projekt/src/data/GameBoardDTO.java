@@ -10,6 +10,7 @@ import data.fieldclasses.JailDTO;
 import data.fieldclasses.Ownable;
 import data.fieldclasses.RefugeDTO;
 import data.fieldclasses.ShippingCompanyDTO;
+import data.fieldclasses.StaticTax;
 import data.fieldclasses.StreetDTO;
 import data.fieldclasses.Tax;
 ;
@@ -68,7 +69,7 @@ public class GameBoardDTO {
 		field[36] = new ChanceDTO(36, Color.BLACK);
 		field[37] = new StreetDTO(37, Color.magenta, 7000, 700);
 		// Der skal laves en ny TaxField klasse som trækker 2000 fra spilleren, Den er endu ikke lavet.
-		field[38] = new Tax(38, Color.WHITE, 2000, 0);
+		field[38] = new StaticTax(38, Color.WHITE, 2000);
 		field[39] = new StreetDTO(39, Color.magenta, 8000, 1000);
 	}	
 	public int getNumberOfFields () {
