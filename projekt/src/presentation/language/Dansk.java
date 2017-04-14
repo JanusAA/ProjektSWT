@@ -170,8 +170,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String ChanceCard1() {
-		// TODO Auto-generated method stub
-		return null;
+		return "De modtager Deres aktieudbytte. Modtag 1000 kr af banken";
 	}
 	@Override
 	public String ChanceCard2() {
