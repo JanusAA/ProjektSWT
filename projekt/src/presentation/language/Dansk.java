@@ -4,12 +4,12 @@ public class Dansk implements LanguageDefinitions {
 
 	@Override
 	public String gameRules() {
-		return "\t Velkommen til Matador. Herunder ses en kort introduktion til reglerne: \n"
-				+ "\t Ved spilstart tildeles hver spiller 30.000 kr, disse penge bruges til at opkoebe grunde, \n"
-				+ "\t samt til at betale skat, leje og regninger. På spillebraettet findes 40 felter, som alle har \n"
-				+ "\t nogle funktioner. Grunde, rederier og bryggerier kan alle koebes. Skat medfoerer en betaling. \n"
-				+ "\t Hvis du lander på et felt, som en anden spiller har koebt, betales der en leje. \n "
-				+ "\t Spillet vindes ved at vaere den sidste spiller med penge på kontoen. \n ";
+		return " Velkommen til Matador. Herunder ses en kort introduktion til reglerne: \n"
+				+ " Ved spilstart tildeles hver spiller 30.000 kr, disse penge bruges til at opkoebe grunde, \n"
+				+ " samt til at betale skat, leje og regninger. På spillebraettet findes 40 felter, som alle har \n"
+				+ " nogle funktioner. Grunde, rederier og bryggerier kan alle koebes. Skat medfoerer en betaling. \n"
+				+ " Hvis du lander på et felt, som en anden spiller har koebt, betales der en leje. \n "
+				+ " Spillet vindes ved at vaere den sidste spiller med penge på kontoen. \n ";
 		
 	}
 	@Override
