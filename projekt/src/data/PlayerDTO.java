@@ -106,6 +106,10 @@ public class PlayerDTO {
 	public int getCurrentField() {
 		return currentField;
 	}
+	
+	public void setCurrentField(int currentField) {
+		this.currentField = currentField;
+	}
 	/**
 	 * 	Når vi rykker os udover arraylængden ruller vi rundt ved at trække arraylængden fra.
 	 * @param roll

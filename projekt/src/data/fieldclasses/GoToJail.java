@@ -20,7 +20,8 @@ public class GoToJail extends FieldDTO {
 	@Override
 	public int landOnField(PlayerDTO player) {
 		// Der skal laves en metode som flytter spilleren til fængslet på felt 11 (11 grafisk)
-		// Uden spilleren modtager penge ved at flytte over start. 
+		// Uden spilleren modtager penge ved at flytte over start.
+		
 		return 0;
 	}
 
