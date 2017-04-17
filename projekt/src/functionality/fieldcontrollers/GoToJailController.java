@@ -22,5 +22,6 @@ public class GoToJailController {
 		GUIh.setCar(player.getCurrentField(), player.getName());
 		
 		// TODO: en metode som først når det er spillerens tur igen starter som en land on field metode i fængslet, som starter JailControlleren.
+		// Det skal nok skrives i hovedcontrolleren som viser er spiller's tur. if(player.getCurrentField() == 11){
 	}
 }

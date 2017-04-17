@@ -21,6 +21,11 @@ public class GoToJail extends FieldDTO {
 	public int landOnField(PlayerDTO player) {
 		// Der skal laves en metode som flytter spilleren til fængslet på felt 11 (11 grafisk)
 		// Uden spilleren modtager penge ved at flytte over start.
+		// Med set/get receive income kan det bestemmes om en spiller skal modtage penge eller ej.
+		// TODO: der skal laves en metode som evaluere og ændre boolean value når start passeres. 
+		if(player.getReceiveIncome()== true)
+			player.setReceiveIncome(false);
+		
 		
 		return 0;
 	}

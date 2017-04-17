@@ -3,7 +3,7 @@ public class PlayerDTO {
 
 	private String name;
 	private int balance, currentField, d1, d2, ShippingCompanysOwned,BreweriesOwned, Identifier, jailThrows;
-	private boolean hasLost;
+	private boolean hasLost, receiveIncome;
 	private static int AvailableIdentifer = 0;
 	/**
 	 * Den private int anvendes til at give hver spiller et unikt id
@@ -147,4 +147,11 @@ public class PlayerDTO {
 		this.jailThrows = jailThrows++;
 	}
 
+	public boolean getReceiveIncome(){
+		return this.receiveIncome;
+	}
+	public void setReceiveIncome(boolean receiveIncome){
+		this.receiveIncome = receiveIncome;
+	}
+	
 }
