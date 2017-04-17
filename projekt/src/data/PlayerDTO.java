@@ -3,7 +3,7 @@ public class PlayerDTO {
 
 	private String name;
 	private int balance, currentField, d1, d2, ShippingCompanysOwned,BreweriesOwned, Identifier, jailThrows;
-	private boolean hasLost, receiveIncome;
+	private boolean hasLost, receiveIncome, PrisonFreeCard;
 	private static int AvailableIdentifer = 0;
 	/**
 	 * Den private int anvendes til at give hver spiller et unikt id
@@ -107,6 +107,7 @@ public class PlayerDTO {
 		return currentField;
 	}
 	
+	// Sætter en spillers position på spillebrættet (bruges bla. i chancekort)
 	public void setCurrentField(int currentField) {
 		this.currentField = currentField;
 	}
@@ -147,11 +148,22 @@ public class PlayerDTO {
 		this.jailThrows = jailThrows++;
 	}
 
+	// Hvis sat til true, modtages penge ved passering af start. 
 	public boolean getReceiveIncome(){
 		return this.receiveIncome;
 	}
+	
+	//Benyttes til at sætte ReceiveIncome, til false, når spilleren fx. trækker et fængselskort.
 	public void setReceiveIncome(boolean receiveIncome){
 		this.receiveIncome = receiveIncome;
 	}
 	
+	public boolean getPrisonFreeCard(){
+		return this.PrisonFreeCard;
+	}
+	public void setPrisonFreeCard(boolean PrisonFreeCard){
+		this.PrisonFreeCard = PrisonFreeCard;
+	}
+	
+	//TODO: Husk at adde alle set metoderne til spilerne når de instancieres.
 }

@@ -34,7 +34,7 @@ public class GameBoardDTO {
 //		ShippingCompany parametre: id, pris
 		field[5] = new ShippingCompanyDTO(5, Color.GREEN, 4000);
 		field[6] = new StreetDTO(6, Color.ORANGE, 2000, 100);
-		field[7] = new ChanceDTO(7, Color.BLACK);
+		field[7] = new ChanceDTO(7, Color.BLACK); 
 		field[8] = new StreetDTO(8, Color.ORANGE, 2000, 100);
 		field[9] = new StreetDTO(9, Color.ORANGE, 2400, 150);
 		field[10] = new JailDTO(10, Color.DARK_GRAY);
