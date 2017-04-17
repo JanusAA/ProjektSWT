@@ -129,5 +129,6 @@ public class ChanceDTO extends FieldDTO {
 			player.transaction(-40000);
 		}else;
 	}
+	// git upload issue, proever igen. 
 	}
 }
