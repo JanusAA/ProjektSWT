@@ -102,6 +102,7 @@ public class Dansk implements LanguageDefinitions {
 		case 3: 	s = "Helle";		break;
 		case 4: 	s = "Skat";			break;
 		case 5: 	s = "Grund";		break;
+		case 6:		s = "Chance";		break;
 		default:	s = "";				break;
 		}
 		return s;
