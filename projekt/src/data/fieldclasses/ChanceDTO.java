@@ -60,6 +60,8 @@ public class ChanceDTO extends FieldDTO {
 	@Override
 	public int landOnField(PlayerDTO player) {
 		
+		// Lav Que som trækker et ChanceCard, der derefter skal evalueres via if statements hernuder.
+		// Husk at når spiller instansieres skal Array'et shuffeles. 
 		
 		return 0;
 	}

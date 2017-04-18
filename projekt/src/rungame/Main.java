@@ -14,9 +14,9 @@ public class Main {
 	public static void main (String[]args) {
 		GameBoardDTO game = new GameBoardDTO();
 		GUIHandler GUIh = new GUIHandler();
-//		Sætter sproget til dansk, flere sprog kan udvikles i language pakken, ved at implementere language definitions
+//		Saetter sproget til dansk, flere sprog kan udvikles i language pakken, ved at implementere language definitions
 		LanguageHandler language = new LanguageHandler("Dansk");
-		// Opretter spilleplade i GUI på basis af feltrækken i GameBoard
+		// Opretter spilleplade i GUI paa basis af feltraekken i GameBoard
 		GUIh.createGameBoard(game, language);
 		// Vis spillets regler til spillerne
 		GUIh.getGameRules(language.gameRules());

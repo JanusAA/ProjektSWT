@@ -159,7 +159,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String throwDice(){
-		return "Kast terningerne, og haab på to ens";
+		return "Kast terningerne, og haab paa to ens";
 	}
 	@Override
 	public String bribeJail(String name){
@@ -167,7 +167,7 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String threeThrowsJail(String name){
-		return name + "har ikke lykkedes at slå 2 ens på tre runder, derfor betales 1000 kr. og spiller kan nu rykke igen.";
+		return name + "har ikke lykkedes at slaa 2 ens på tre runder, derfor betales 1000 kr. og spiller kan nu rykke igen.";
 	}
 	@Override
 	public String ChanceCard1() {
@@ -179,43 +179,43 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String ChanceCard3() {
-		return "De ryger i fængsel. Selvom at De passerer start, modtages ikke 4000 kr.";
+		return "De ryger i faengsel. Selvom at De passerer start, modtages ikke 4000 kr.";
 	}
 	@Override
 	public String ChanceCard4() {
-		return "De ryger i fængsel. Selvom at De passerer start, modtages ikke 4000 kr.";
+		return "De ryger i faengsel. Selvom at De passerer start, modtages ikke 4000 kr.";
 	}
 	@Override
 	public String ChanceCard5() {
-		return "De har været i udlandet og har taget for mange cigaretter med hjem. Betal 200 kr i tolden.";
+		return "De har vaeret i udlandet og har taget for mange cigaretter med hjem. Betal 200 kr i tolden.";
 	}
 	@Override
 	public String ChanceCard6() {
-		return "De har modtaget Deres tandlægeregning. Betal 2000 kr.";
+		return "De har modtaget Deres tandlaegeregning. Betal 2000 kr.";
 	}
 	@Override
 	public String ChanceCard7() {
-		return "De havde en række med 11 rigtige i tipning. Modtag 1000 kr.";
+		return "De havde en raekke med 11 rigtige i tipning. Modtag 1000 kr.";
 	}
 	@Override
 	public String ChanceCard8() {
-		return "Deres præmieobligation er kommet ud. Modtag 1000 kr. af banken.";
+		return "Deres praemieobligation er kommet ud. Modtag 1000 kr. af banken.";
 	}
 	@Override
 	public String ChanceCard9() {
-		return "Deres præmieobligation er kommet ud. Modtag 1000 kr. af banken.";
+		return "Deres praemieobligation er kommet ud. Modtag 1000 kr. af banken.";
 	}
 	@Override
 	public String ChanceCard10() {
-		return "Det er Deres fødselsdag. Modtag 200 kr. af hver medspiller.";
+		return "Det er Deres foedselsdag. Modtag 200 kr. af hver medspiller.";
 	}
 	@Override
 	public String ChanceCard11() {
-		return "Værdien af egen avl fra nyttehaven udgør 200 kr., som De modtager af banken.";
+		return "Vaerdien af egen avl fra nyttehaven udgoer 200 kr., som De modtager af banken.";
 	}
 	@Override
 	public String ChanceCard12() {
-		return "Betal Deres bilforsikring på 1000 kr.";
+		return "Betal Deres bilforsikring paa 1000 kr.";
 	}
 	@Override
 	public String ChanceCard13() {
@@ -223,43 +223,43 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String ChanceCard14() {
-		return "Ryk frem til Grønningen. Hvis De passerer start indkasseres 4000 kr.";
+		return "Ryk frem til Groenningen. Hvis De passerer start indkasseres 4000 kr.";
 	}
 	@Override
 	public String ChanceCard15() {
-		return "Ryk brikken frem til det nærmeste rederi og betal ejeren to gange den leje, han ellers er berettiget til. Hvis selskabet ikke ejes af nogen kan De købe det af banken.";
+		return "Ryk brikken frem til det naermeste rederi og betal ejeren to gange den leje, han ellers er berettiget til. Hvis selskabet ikke ejes af nogen kan De købe det af banken.";
 	}
 	@Override
 	public String ChanceCard16() {
-		return "Ryk brikken frem til det nærmeste rederi og betal ejeren to gange den leje, han ellers er berettiget til. Hvis selskabet ikke ejes af nogen kan De købe det af banken.";
+		return "Ryk brikken frem til det naermeste rederi og betal ejeren to gange den leje, han ellers er berettiget til. Hvis selskabet ikke ejes af nogen kan De koebe det af banken.";
 	}
 	@Override
 	public String ChanceCard17() {
-		return "Tag med LB-færgerne --- flyt brikken frem, og hvis De passerer Start. Indkassér da kr. 4000.";
+		return "Tag med LB-faergerne --- flyt brikken frem, og hvis De passerer Start. Indkasser da 4000 kr.";
 	}
 	@Override
 	public String ChanceCard18() {
-		return "I anledning af kongens fødselsdag benådes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
+		return "I anledning af kongens foedselsdag benaades De herved for faengsel. Dette kort kan opbevares, indtil De faar brug for det";//, eller De kan saelge det.";
 	}
 	@Override
 	public String ChanceCard19() {
-		return "I anledning af kongens fødselsdag benådes De herved for fængsel. Dette kort kan opbevares, indtil De får brug for det, eller De kan sælge det.";
+		return "I anledning af kongens foedselsdag beaades De herved for faengsel. Dette kort kan opbevares, indtil De faar brug for det";//, eller De kan saelge det.";
 	}
 	@Override
 	public String ChanceCard20() {
-		return "Grundet dyrtiden har De fået gageforhøjelse. Modtag kr. 1000";
+		return "Grundet dyrtiden har De faaet gageforhoejelse. Modtag 1000 kr.";
 	}
 	@Override
 	public String ChanceCard21() {
-		return "Ryk frem til Frederiksberg All‚. Hvis De passerer Start inkasser kr. 4000.";
+		return "Ryk frem til Frederiksberg Alle. Hvis De passerer Start inkasser 4000 kr.";
 	}
 	@Override
 	public String ChanceCard22() {
-		return "De har vundet i Klasselotteriet. Modtag kr. 500";
+		return "De har vundet i Klasselotteriet. Modtag 500 kr.";
 	}
 	@Override
 	public String ChanceCard23() {
-		return "Tag ind på Rådhuspladsen.";
+		return "Tag ind paa Raadhuspladsen.";
 	}
 	@Override
 	public String ChanceCard24() {
@@ -271,35 +271,35 @@ public class Dansk implements LanguageDefinitions {
 	}
 	@Override
 	public String ChanceCard26() {
-		return "Betal kr. 3000 for reparation af Deres vogn.";
+		return "Betal 3000 kr for reparation af Deres vogn.";
 	}
 	@Override
 	public String ChanceCard27() {
-		return "Betal kr. 3000 for reparation af Deres vogn.";
+		return "Betal 3000 kr for reparation af Deres vogn.";
 	}
 	@Override
 	public String ChanceCard28() {
-		return "De modtager Matador-legatet for værdigt trængende, stort kr. 40.000 Ved værdigt trængende forstås, at Deres formue, d.v.s. Deres kontante penge + skøder + bygninger ikke overstiger kr. 15.000.";
+		return "De modtager Matador-legatet for vaerdigt traengende, stort kr. 40.000 Ved vaerdigt traengende forstaas, at Deres formue, d.v.s. deres balance ikke er over 15.000"; //Deres kontante penge + skoeder + bygninger ikke overstiger kr. 15.000.";
 	}
 	@Override
 	public String ChanceCard29() {
-		return "Kommunen har eftergivet et kvartals skat. Hæv i banken kr. 3000.";
+		return "Kommunen har eftergivet et kvartals skat. Haev i banken 3000 kr.";
 	}
 	@Override
 	public String ChanceCard30() {
-		return "Modtag udbytte af Deres aktier kr. 1000";
+		return "Modtag udbytte af Deres aktier 1000 kr.";
 	}
 	@Override
 	public String ChanceCard31() {
-		return "Modtag udbytte af Deres aktier kr. 1000";
+		return "Modtag udbytte af Deres aktier 1000 kr.";
 	}
 	@Override
 	public String ChanceCard32() {
-		return "De har kørt frem for Fuld Stop. Betal kr. 1000 i bøde.";
+		return "De har koert frem for Fuld Stop. Betal kr. 1000 i boede.";
 	}
 	@Override
 	public String ChanceCard33() {
-		return "De har måttet vedtage en parkeringsbøde. Betal kr. 200 i bøde.";
+		return "De har maattet vedtage en parkeringsboede. Betal 200 kr. i boede.";
 	}
 	
 }
